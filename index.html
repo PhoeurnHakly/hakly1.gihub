@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative; 
+  }
+  #section1 {padding-top:45px;height:600px;color: #fff; background-color: #3bbfcb;}
+  #section2 {padding-top:10px;height:600px;color: #fff; background-color: #d921c4;}
+  #section3 {padding-top:10px;height:600px;color: #fff; background-color: #88ff00;}
+  #section41 {padding-top:10px;height:600px;color: #fff; background-color: #ae6039;}
+  #section42 {padding-top:10px;height:600px;color: #fff; background-color: #991c48;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">About</a></li>
+          <li><a href="#section2">Services</a></li>
+          <li><a href="#section3">Contact</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>About Me</h1>
+  
+  
+  <p>This is a paragraph about me.</p>
+  <p>Complex binding in ASP.NET MVC refers to the process of binding complex objects to HTTP requests. Model binding is a feature of ASP.NET MVC that allows controller actions to accept complex object types as parameters. The model binding system retrieves data from various sources such as route data, form fields, and query strings, and provides the data to controllers and Razor pages in method parameters and public properties. For complex types, model binding creates an instance by using the default constructor, without setting properties. Arrays are set to Array.Empty ()</p>
+  <div style="background-image: url('https://cdn.pixabay.com/photo/2020/09/19/09/40/sunset-5584004_640.jpg'); height: 500px; width: 100%;">
+    <!-- Your content here -->
+</div>
+  
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Services</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+  <div style="background-image: url('https://cdn.pixabay.com/photo/2023/05/26/12/31/couple-8019370_1280.jpg'); height: 500px; width: 100%;">
+    <!-- Your content here -->
+</div>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Contact</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+  <div style="background-image: url('https://cdn.pixabay.com/photo/2023/08/08/09/20/wedding-8176868_640.jpg'); height: 500px; width: 100%;">
+    <!-- Your content here -->
+</div>
+
+
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+
+  <div style="background-image: url('https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_640.jpg'); height: 500px; width: 100%;">
+    <!-- Your content here -->
+</div>
+
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+  <div style="background-image: url('https://cdn.pixabay.com/photo/2017/08/01/15/23/bride-2566244_640.jpg'); height: 500px; width: 100%;">
+    <!-- Your content here -->
+</div>
+</div>
+
+</body>
+</html>
